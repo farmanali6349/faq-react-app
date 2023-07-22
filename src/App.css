@@ -1,0 +1,67 @@
+main {
+  width: 100%;
+  padding: 30px 0;
+  background-color: #042A2B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  width: 70%;
+  background-color: #FCFCFC;
+  padding: 30px 20px;
+  border-radius: 16px;
+}
+
+.Container h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.QuestionBox {
+  width: 100%;
+  padding: 15px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  margin: 15px 0;
+}
+
+.QuestionBox .question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ebe0e0a4;
+  padding: 15px 10px;
+  border-radius: 5px;
+  
+}
+
+.QuestionBox .question h3{
+  width: 90%;
+  display: block;
+  font-size: 21px;
+  text-transform: capitalize;
+}
+
+.QuestionBox .question .Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  width: 25px;
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.432);
+  background-color: lavender;
+  cursor: pointer;
+  border-radius: 50%;
+  float: right;
+}
+
+.QuestionBox p {
+  margin-top: 10px;
+  padding: 0 10px;
+  width: 100%;
+  font-size: 18px;
+}
